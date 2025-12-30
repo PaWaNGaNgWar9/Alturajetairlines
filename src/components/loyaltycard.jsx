@@ -7,7 +7,7 @@ const LoyaltyCard =()=>
                 <p className="text-3xl  font-medium text-blue-900 m-3 ">
                     AlturaJet Loyalty Program
                 </p>
-                <div className="bg-cover bg-no-repeat bg-center w-100 md:w-190  h-50 md:h-75 ml-1 md:ml-5 md:rounded-2xl "
+                <div className="bg-cover bg-no-repeat bg-center w-102 md:w-190  h-50 md:h-75 ml-1 md:ml-5 md:rounded-2xl "
                    style={{backgroundImage: "url('/loyal.png')"}}>
                     <div className="p-2 md:p-5">
                        <img src="/cardlogo.png" className="w-23 h-6 md:w-35 md:h-13" alt="logo"/>

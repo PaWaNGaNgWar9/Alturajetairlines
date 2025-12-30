@@ -6,6 +6,9 @@ const Flightssearch = () => {
   const [isFocused, setIsFocused] = useState(false);
   const [value, setValue] = useState("");
 
+  // Trip type state
+  const [tripType, setTripType] = useState("oneway");
+
   // Passenger state
   const [open, setOpen] = useState(false);
   const [adults, setAdults] = useState(1);
@@ -19,25 +22,54 @@ const Flightssearch = () => {
         <p className="text-lg font-bold text-blue-950 p-3 text-center w-50">
           BOOK TRIP
         </p>
-
         {/* Tabs */}
         <div className="bg-black text-white p-4 md:w-205 overflow-x-auto">
-          <div className="flex gap-4 md:gap-20 whitespace-nowrap">
+          <div className="flex gap-4 md:gap-10 whitespace-nowrap">
             <a className="cursor-pointer py-2 hover:bg-gray-600">MANAGE BOOKING</a>
             <a className="cursor-pointer py-2 hover:bg-gray-600">CHECK IN</a>
+              <a className="cursor-pointer py-2 hover:bg-gray-600">CHECK OFFERS</a>
             <a className="cursor-pointer py-2 hover:bg-gray-600">FLIGHT STATUS</a>
             <a className="cursor-pointer py-2 hover:bg-gray-600">FLIGHT SCHEDULE</a>
           </div>
         </div>
       </div>
-
-      {/* Body */}
       <div className="p-8">
         <p className="text-3xl font-mono text-blue-950">
           Hi, where would you like to go?
         </p>
 
         <div className="w-full h-[1px] mt-5 bg-gray-200"></div>
+
+      <div className="flex flex-col md:flex-row gap-4 md:gap-6 items-start md:items-center mt-5">
+      {/* Left: Trip type */}
+       <div className=" px-16 md:px-0 flex gap-6 items-center">
+         <label className="flex items-center gap-2 cursor-pointer">
+         <input
+           type="radio"
+          name="tripType"
+           checked={tripType === "oneway"}
+            onChange={() => setTripType("oneway")}/>
+             <span>One Way</span>
+          </label>
+
+               <label className="flex items-center gap-2 cursor-pointer">
+              <input
+              type="radio"
+              name="tripType"
+              checked={tripType === "roundtrip"}
+              onChange={() => setTripType("roundtrip")}/>
+              <span>Round Trip</span>
+          </label>
+         </div>
+        <div className=" px-10 md:px-0 flex gap-4 md:ml-auto">
+          <a className="cursor-pointer text-sm underline text-blue-600">
+           Apply promo code
+            </a>
+           <a className="cursor-pointer text-sm underline text-blue-600">
+            Multi-City/Stopovers
+            </a>
+       </div>
+    </div>
 
         {/* Booking */}
         <div className="flex flex-col md:flex-row gap-5 mt-5 items-center">
@@ -61,7 +93,7 @@ const Flightssearch = () => {
           />
 
           {/* To */}
-          <div className="border border-gray-300 w-60 p-4  md:border-l-0 flex items-center gap-2">
+          <div className="border border-gray-300 w-60 p-4 md:border-l-0 flex items-center gap-2">
             <FaMapMarkerAlt className="text-gray-500" />
             <input
               type="text"
@@ -72,15 +104,24 @@ const Flightssearch = () => {
             />
           </div>
 
-          {/* Dates */}
+          {/* Depart Date */}
           <div className="border border-gray-300 p-2">
-            <label className="block text-sm text-gray-500 mb-1">Depart Date</label>
+            <label className="block text-sm text-gray-500 mb-1">
+              Depart Date
+            </label>
             <input type="date" className="w-60 outline-none" />
           </div>
 
+          {/* Return Date */}
           <div className="border border-gray-300 p-2">
-            <label className="block text-sm text-gray-500 mb-1">Return Date</label>
-            <input type="date" className="w-60 outline-none" />
+            <label className="block text-sm text-gray-500 mb-1">
+              Return Date
+            </label>
+            <input
+              type="date"
+              className="w-60 outline-none disabled:bg-gray-100 disabled:cursor-not-allowed"
+              disabled={tripType === "oneway"}
+            />
           </div>
         </div>
 
@@ -99,7 +140,7 @@ const Flightssearch = () => {
             <option value="Suites">First / Suites</option>
           </select>
 
-          {/* PASSENGER DROPDOWN (FIXED PART) */}
+          {/* Passenger Dropdown */}
           <div className="relative">
             <div
               onClick={() => setOpen(!open)}
@@ -126,8 +167,8 @@ const Flightssearch = () => {
           </div>
 
           {/* Search Button */}
-          <div className="bg-blue-950 p-3 text-center w-full cursor-pointer w-full md:w-50">
-            <button className="text-blue-50 text-xl ">Search</button>
+          <div className="bg-blue-950 p-3 text-center cursor-pointer w-full md:w-50">
+            <button className="text-blue-50 text-xl">Search</button>
           </div>
         </div>
       </div>

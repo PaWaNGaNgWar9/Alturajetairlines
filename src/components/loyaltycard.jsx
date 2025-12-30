@@ -19,9 +19,9 @@ const LoyaltyCard =()=>
                    </div>
                         <a href="#"  className="cursor-pointer">
                             <div className="border-2 border-white w-30 md:w-50 h-9  mt-5  md:ml-5 ml-2 text-center 
-                            hover:bg-amber-600
+                            hover:bg-amber-500
                             ">
-                           <p className="p-2  text-white text-xs md:text-lg md:font-medium ">Know More</p>
+                           <p className="p-2 md:p-0  text-white text-xs md:text-lg md:font-medium ">Know More</p>
                         </div></a>
                 </div>
                 </div>

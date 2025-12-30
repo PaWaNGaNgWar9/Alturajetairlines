@@ -16,7 +16,7 @@ const Herosection = () => {
 
   return (
     <section
-      className="relative   h-[80svh] s:h-screen w-full bg-cover bg-center bg-no-repeat transition-all duration-700"
+      className="relative  h-80  md:h-110  w-full bg-cover bg-center bg-no-repeat transition-all duration-700"
       style={{ backgroundImage: `url(${images[current]})` }}
     >
       {/* Dark overlay for readability */}
@@ -25,11 +25,11 @@ const Herosection = () => {
       {/* Content */}
       <div className="relative z-10 flex items-center h-full px-6 sm:px-10 md:px-16">
         <div className="max-w-xl text-white">
-          <p className="text-2xl sm:text-3xl md:text-4xl mt-28 font-bold text-amber-400 drop-shadow-lg">
+          <p className="text-md sm:text-3xl md:text-4xl mt-28 font-bold text-amber-400 drop-shadow-lg">
             ⌯✈︎ Fly the World With Confidence
           </p>
 
-          <p className="mt-4 text-base sm:text-lg md:text-xl font-semibold drop-shadow-md">
+          <p className="md:mt-4 text-base text-xs md:text-xl font-semibold drop-shadow-md">
             Enjoy smooth bookings, on-time flights, and customer-first service
             every step of the way.
           </p>

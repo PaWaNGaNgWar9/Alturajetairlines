@@ -17,7 +17,7 @@ const Navbar = () => {
         </div>
 
         {/* Title */}
-        <h1 className="text-4xl font-bold ml-20 tracking-wide  font-serif hidden md:block">
+        <h1 className="text-4xl font-bold ml-30 tracking-wide  font-serif hidden md:block">
          <span className="text-blue-950"> Altura</span><span className="text-amber-400">Jet</span>
         </h1>
 

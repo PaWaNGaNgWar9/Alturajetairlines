@@ -11,6 +11,7 @@ import Tailor from './components/tailor';
 import NextTrip from './components/nexttrip';
 import LoyaltyCard from './components/loyaltycard';
 import PrivateJet from './components/privatejet';
+import SingleImage from './components/singleimage';
 import Footer from './components/Footer';
 import './App.css'
 function App() {
@@ -31,6 +32,7 @@ function App() {
         <LoyaltyCard/>
         <PrivateJet/>
         <NextTrip/>
+        <SingleImage/>
         <Footer/>
         </Suspense>
       </div>

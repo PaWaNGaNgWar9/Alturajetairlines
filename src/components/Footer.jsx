@@ -6,10 +6,10 @@ import { FaYoutube } from "react-icons/fa6";
 import { BsLinkedin } from "react-icons/bs";
 import { RiVisaFill } from "react-icons/ri";
 const Footer = () => (
-    <div className="w-full md:h-100 h-auto bg-blue-950 mt-10">
+    <div className="w-full md:h-105 h-auto bg-blue-950 mt-1">
         {/* Social Media Links */}
         <div className=" flex  flex-col  md:flex-row  items-center md:items-end justify-end p-2 gap-3">
-           <p className="bg-gradient-to-r from-cyan-500 to-amber-500 bg-clip-text text-transparent text-md mr-2 flex">
+           <p className="text-white">
   Follow us on....
 </p>
 <div className=" flex flex-row  gap-4 ">
@@ -32,6 +32,7 @@ const Footer = () => (
           </div> 
         </div>
              <div className=" flex  flex-col md:flex-row  pl-2 md:p-3  md:gap-20 ">
+              <div className="flex flex-row gap-15">
                 <div className=" flex flex-col text-white ">
                     <p className=" text-lg font-bold mb-2 text-amber-600">About Us</p>
                     <a href="#" className=" text-md mb-1 cursor-pointer hover:underline">Company Information</a>
@@ -50,6 +51,8 @@ const Footer = () => (
                             <a href="#" className=" text-md mb-1 cursor-pointer hover:underline">Travel Alerts</a>
                             <a href="#" className=" text-md mb-1 cursor-pointer hover:underline">Refund Policy</a>
                       </div>
+                      </div>
+                      <div className="flex flex-row gap-15">
                        <div className=" flex flex-col text-white ">
                         <p className=" text-lg font-bold  text-amber-600 mb-2">Travel Information</p>
                         <a href="#" className=" text-md mb-1 cursor-pointer hover:underline">Book a Flight</a>
@@ -57,7 +60,7 @@ const Footer = () => (
                         <a href="#" className=" text-md mb-1 cursor-pointer hover:underline">Check-in Online</a>
                         <a href="#" className=" text-md mb-1 cursor-pointer hover:underline">Flight Status</a>
                         <a href="#" className=" text-md mb-1 cursor-pointer hover:underline">Route Map </a>
-                      </div>
+                      </div> 
                       <div className=" flex flex-col text-white ">
                         <p className=" text-lg font-bold  text-amber-600 mb-2">Legal</p>
                         <a href="#" className=" text-md mb-1 cursor-pointer hover:underline">Privacy Policy</a>
@@ -67,12 +70,20 @@ const Footer = () => (
                         <a href="#" className=" text-md mb-1 cursor-pointer hover:underline">Corporate Responsibility</a>
                         <a href="#" className=" text-md mb-1 cursor-pointer hover:underline">Safety Security</a>
                       </div>
+                      </div>
                       <div className=" flex flex-col text-white ">
                         <p className=" text-lg font-bold text-amber-600 mb-2">Contact Information</p>
                         <p className=" text-md mb-1">123 Aviation Way, Suite 100</p>
                         <p className=" text-md mb-1">Cityville, ST 12345</p>
                         <p className=" text-md mb-1">Phone: (123) 456-7890</p>
-                        <p className=" text-md mb-1">Email:alturajet@airline.com</p>    
+                        <p className=" text-md mb-1">Email:alturajet@airline.com</p>
+                        <p className="text-lg font-bold text-amber-600">Download our mobile app</p> 
+                        <div className="flex flex-row gap-2 mt-2 mb-3 md:mb-0">
+                        <a className="cursor-pointer">
+                          <img src="play-store.png" alt="image" className="w-30 h-8"/></a>  
+                        <a className="cursor-pointer">
+                          <img src="app-store.png" alt="image" className="w-30 h-8"/></a> 
+                        </div> 
                         </div>
              </div>
              <div className=" text-center text-white p-4 border-t border-amber-500">

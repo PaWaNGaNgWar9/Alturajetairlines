@@ -33,7 +33,7 @@ import React from "react";
                <a href="#" className="cursor-pointer">
                <div className="bg-white w-full h-auto md:w-70 md:h-40 p-4 shadow-2xl  transition-transform duration-900
                ease-out hover:scale-110 ">
-                            <p className="text-lgmd:text-2xl text-black font-bold ">
+                            <p className="text-lg md:text-2xl text-black font-bold ">
                        Corporate Traveller
                     </p>
                         <p className="text-black pt-2 md:pt-5">

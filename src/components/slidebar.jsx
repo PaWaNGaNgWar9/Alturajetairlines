@@ -9,9 +9,9 @@ const Slidebar = () => {
                                 I Am Here For...</p>
                                 </div>
         </div>
-        <div  className="justify-center gap-9 md:gap-28 md:mt-8 mt-3 flex flex-row"> 
+        <div  className="justify-center gap-7 md:gap-28 md:mt-8 mt-3 flex flex-row"> 
              <div className="md:px-0">
-            <div className="bg-gray-100 w-12 h-12 p-3 md:w-30 md:h-30 md:p-6  shadow-2xl object-contain rounded-full">
+            <div className="bg-gray-100 w-13 h-13 p-3 md:w-30 md:h-30 md:p-6  shadow-2xl object-contain rounded-full">
                  <a href="#" className="cursor-pointer "><img src="/icon1.png" alt="Image"/></a>
              </div> 
                  <div className="pt-3 pt-1 ">
@@ -19,7 +19,7 @@ const Slidebar = () => {
                 </div>
              </div>
              <div>
-                  <div className="bg-gray-100 w-12 h-12 p-3  md:w-30 md:h-30 md:p-6 shadow-2xl object-contain rounded-full">
+                  <div className="bg-gray-100 w-13 h-13 p-3  md:w-30 md:h-30 md:p-6 shadow-2xl object-contain rounded-full">
                    <a href="#" className="cursor-pointer "><img src="/icon2.png" alt="Image"/></a>
              </div> 
                   <div className="pt-3  md:pl-10 pl-4 ">
@@ -28,7 +28,7 @@ const Slidebar = () => {
                 </div>
              </div>
              <div>
-                           <div className="bg-gray-100 w-12 h-12 p-3 md:w-30 md:h-30 md:p-6 shadow-2xl object-contain rounded-full">
+                           <div className="bg-gray-100 w-13 h-13 p-3 md:w-30 md:h-30 md:p-6 shadow-2xl object-contain rounded-full">
                 <a href="#" className="cursor-pointer "><img src="/icon3.png" alt="Image"/></a>
              </div> 
              <div className="pt-3 ">
@@ -37,7 +37,7 @@ const Slidebar = () => {
                 </div>
                 </div>
                 <div>
-                   <div className="bg-gray-100 w-12 h-12 p-3 md:w-30 md:h-30 md:p-6 shadow-2xl object-contain rounded-full">
+                   <div className="bg-gray-100 w-13 h-13 p-3 md:w-30 md:h-30 md:p-6 shadow-2xl object-contain rounded-full">
                  <a href="#" className="cursor-pointer "><img src="/icon4.png" alt="Image"/></a>
              </div> 
              <div className="pt-3 ">
@@ -46,7 +46,7 @@ const Slidebar = () => {
                 </div>
                 </div>
                 <div>
-               <div className="bg-gray-100 w-12 h-12 p-3 md:w-30 md:h-30 md:p-6 shadow-2xl object-contain rounded-full">
+               <div className="bg-gray-100 w-13 h-13 p-3 md:w-30 md:h-30 md:p-6 shadow-2xl object-contain rounded-full">
                   <a href="#" className="cursor-pointer "><img src="/icon5.png" alt="Image"/></a>
              </div>
              <div className="pt-3 text-center ">

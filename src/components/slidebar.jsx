@@ -15,7 +15,7 @@ const Slidebar = () => {
                  <a href="#" className="cursor-pointer "><img src="/icon1.png" alt="Image"/></a>
              </div> 
                  <div className="pt-3 pt-1 ">
-                    <p className="font-medium md:text-xl text-[6px]">Change Asist</p>
+                    <p className="font-medium md:text-xl text-[8px]">Change Asist</p>
                 </div>
              </div>
              <div>
@@ -23,7 +23,7 @@ const Slidebar = () => {
                    <a href="#" className="cursor-pointer "><img src="/icon2.png" alt="Image"/></a>
              </div> 
                   <div className="pt-3  md:pl-10 pl-4 ">
-                    <p className="font-medium md:text-xl text-[6px]">Taxi</p>
+                    <p className="font-medium md:text-xl text-[8px]">Taxi</p>
                     
                 </div>
              </div>
@@ -32,7 +32,7 @@ const Slidebar = () => {
                 <a href="#" className="cursor-pointer "><img src="/icon3.png" alt="Image"/></a>
              </div> 
              <div className="pt-3 ">
-                    <p className="font-medium md:text-xl text-[6px]">GST Invoice</p>
+                    <p className="font-medium md:text-xl text-[8px]">GST Invoice</p>
                    
                 </div>
                 </div>
@@ -41,7 +41,7 @@ const Slidebar = () => {
                  <a href="#" className="cursor-pointer "><img src="/icon4.png" alt="Image"/></a>
              </div> 
              <div className="pt-3 ">
-                    <p className="font-medium md:text-xl text-[6px]">Visa Services</p>
+                    <p className="font-medium md:text-xl text-[8px]">Visa Services</p>
                     
                 </div>
                 </div>
@@ -50,7 +50,7 @@ const Slidebar = () => {
                   <a href="#" className="cursor-pointer "><img src="/icon5.png" alt="Image"/></a>
              </div>
              <div className="pt-3 text-center ">
-                    <p className="font-medium md:text-xl text-[6px]">AlturaJet<br/> Loyalty
+                    <p className="font-medium md:text-xl text-[8px]">AlturaJet<br/> Loyalty
                      Card</p>
                     
                 </div>

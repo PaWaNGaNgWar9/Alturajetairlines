@@ -16,7 +16,7 @@ const Herosection = () => {
 
   return (
     <section
-      className="relative  h-[80svh] s:h-screen w-full bg-cover bg-center bg-no-repeat transition-all duration-700"
+      className="relative   h-[80svh] s:h-screen w-full bg-cover bg-center bg-no-repeat transition-all duration-700"
       style={{ backgroundImage: `url(${images[current]})` }}
     >
       {/* Dark overlay for readability */}

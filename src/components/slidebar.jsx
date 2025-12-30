@@ -9,8 +9,8 @@ const Slidebar = () => {
                                 I Am Here For...</p>
                                 </div>
         </div>
-        <div  className="justify-center gap-5 md:gap-28 md:mt-8 mt-3 flex flex-row"> 
-             <div className="px-6 md:px-0">
+        <div  className="justify-center gap-9 md:gap-28 md:mt-8 mt-3 flex flex-row"> 
+             <div className="md:px-0">
             <div className="bg-gray-100 w-12 h-12 p-3 md:w-30 md:h-30 md:p-6  shadow-2xl object-contain rounded-full">
                  <a href="#" className="cursor-pointer "><img src="/icon1.png" alt="Image"/></a>
              </div> 

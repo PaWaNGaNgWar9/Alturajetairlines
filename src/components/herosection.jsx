@@ -34,7 +34,7 @@ const Herosection = () => {
   }, [loaded]);
 
   return (
-    <section className="relative h-75 md:h-120 w-full overflow-hidden">
+    <section className="relative h-[75vh] md:h-[120vh] w-full overflow-hidden">
       
       {/* Background Images */}
       {images.map((img, index) => (
@@ -53,6 +53,7 @@ const Herosection = () => {
           <p className="text-md sm:text-3xl md:text-4xl mt-28 font-bold text-amber-400 drop-shadow-lg">
             ⌯✈︎ Fly the World With Confidence
           </p>
+
           <p className="mt-2 md:mt-4 text-xs sm:text-base md:text-xl font-semibold drop-shadow-md">
             Enjoy smooth bookings, on-time flights, and customer-first service
             every step of the way.

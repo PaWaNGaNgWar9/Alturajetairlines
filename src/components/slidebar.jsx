@@ -42,7 +42,6 @@ const Slidebar = () => {
              </div> 
              <div className="pt-3 ">
                     <p className="font-medium md:text-xl text-[8px]">Visa Services</p>
-                    
                 </div>
                 </div>
                 <div>
@@ -52,7 +51,6 @@ const Slidebar = () => {
              <div className="pt-3 text-center ">
                     <p className="font-medium md:text-xl text-[8px]">AlturaJet<br/> Loyalty
                      Card</p>
-                    
                 </div>
                </div>  
         </div>

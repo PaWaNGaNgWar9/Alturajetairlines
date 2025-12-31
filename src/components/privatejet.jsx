@@ -28,10 +28,9 @@ const PrivateJet=()=>
           alt="Private Jet"
           className="md:w-65 md:h-43  w-full h-auto object-contain md:m-13  rounded-2xl"/>
           <div className="flex flex-col md:mt-10  pl-3 md:pl-0 mt-3 md:-translate-x-[30px]">
-               <p className="md:text-3xl text-2xl font-bold text-blue-950">Cargo</p>
-               <p className="font-bold m-0 text-sm md:text-md">Small , Medium , Large & X-Large</p>
-               <p className="m-0 text-sm md:text-md">Get your cargo shipped from one place to another in a 
-                convenient and cost-effective manner.</p>
+               <p className="md:text-3xl text-2xl font-bold text-blue-950">Charter</p>
+               <p className="font-bold m-0 text-sm md:text-md">Your private space in the sky</p>
+               <p className="m-0 text-sm md:text-md">Now book a private charter for small groups or big.</p>
                  <a className="cursor-pointer mt-4">
                       <div className="bg-amber-500 w-35 h-10 p-2 text-center text-md rounded-lg transition-all ease-in-out duration-400 hover:scale-105">
                         Book Now

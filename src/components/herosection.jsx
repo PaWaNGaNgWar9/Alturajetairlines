@@ -34,7 +34,7 @@ const Herosection = () => {
   }, [loaded]);
 
   return (
-    <section className="relative h-[75vh] md:h-[120vh] w-full overflow-hidden">
+    <section className="relative h-75 md:h-120 w-full overflow-hidden">
       
       {/* Background Images */}
       {images.map((img, index) => (

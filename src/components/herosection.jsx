@@ -8,8 +8,6 @@ const Herosection = () => {
   const images = [HeroImage, HeroImage1, HeroImage2, HeroImage3];
   const [current, setCurrent] = useState(0);
   const [loaded, setLoaded] = useState(false);
-
-  // ✅ Preload images
   useEffect(() => {
     let loadedCount = 0;
     images.forEach((src) => {
@@ -28,7 +26,7 @@ const Herosection = () => {
 
     const interval = setInterval(() => {
       setCurrent((prev) => (prev + 1) % images.length);
-    }, 5000);
+    }, 3000);
 
     return () => clearInterval(interval);
   }, [loaded]);

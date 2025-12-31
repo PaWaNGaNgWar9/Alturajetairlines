@@ -2,9 +2,9 @@ import React, { useState, useEffect } from "react";
 import HeroImage from "/bg.jpg";
 import HeroImage1 from "/bg2.jpg";
 import HeroImage2 from "/bg3.png";
-
+import HeroImage3 from "/bg4.png";
 const Herosection = () => {
-  const images = [HeroImage, HeroImage1, HeroImage2];
+  const images = [HeroImage, HeroImage1, HeroImage2,HeroImage3];
   const [current, setCurrent] = useState(0);
 
   useEffect(() => {

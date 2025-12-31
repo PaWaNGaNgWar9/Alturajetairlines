@@ -76,7 +76,7 @@ const Footer = () => (
                         <p className=" text-md mb-1">123 Aviation Way, Suite 100</p>
                         <p className=" text-md mb-1">Cityville, ST 12345</p>
                         <p className=" text-md mb-1">Phone: (123) 456-7890</p>
-                        <p className=" text-md mb-1">Email:alturajet@airline.com</p>
+                        <p className=" text-md mb-1">Email:alturajet@airlines.com</p>
                         <p className="text-lg font-bold text-amber-600">Download our mobile app</p> 
                         <div className="flex flex-row gap-2 mt-2 mb-3 md:mb-0">
                         <a className="cursor-pointer">

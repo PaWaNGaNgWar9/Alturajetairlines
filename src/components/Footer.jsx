@@ -73,10 +73,10 @@ const Footer = () => (
                       </div>
                       <div className=" flex flex-col text-white ">
                         <p className=" text-lg font-bold text-amber-600 mb-2">Contact Information</p>
-                        <p className=" text-md mb-1">123 Aviation Way, Suite 100</p>
-                        <p className=" text-md mb-1">Cityville, ST 12345</p>
+                        <p className=" text-md mb-1">3rd Floor, 86-90 street London</p>
+                        <p className=" text-md mb-1">England United kingdom ec2a 4ne<p>
                         <p className=" text-md mb-1">Phone: (123) 456-7890</p>
-                        <p className=" text-md mb-1">Email:alturajet@airlines.com</p>
+                        <p className=" text-md mb-1">Email:alturajetairlines@gmail.com</p>
                         <p className="text-lg font-bold text-amber-600">Download our mobile app</p> 
                         <div className="flex flex-row gap-2 mt-2 mb-3 md:mb-0">
                         <a className="cursor-pointer">

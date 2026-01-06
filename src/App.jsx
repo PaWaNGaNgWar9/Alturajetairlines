@@ -1,6 +1,6 @@
 import {lazy, Suspense} from 'react';
 import Navbar from './components/navbar';
-import Heroseciton from './components/herosection';
+const Heroseciton = lazy(()=>import('./components/herosection'))
 import Flightssearch from './components/flightsearch';
 import Movingtext from './components/movingtext';
 const Slidebar = lazy(() => import('./components/slidebar'));
@@ -23,17 +23,17 @@ function App() {
         <Heroseciton/>
         <Flightssearch/>
         <Movingtext/>
-    <Suspense>
-     <Slidebar/>
-      <Trending/>
-      <CardLayout/>
-        <Offer/>
-        <Tailor/>
-        <LoyaltyCard/>
-        <PrivateJet/>
-        <NextTrip/>
-        <SingleImage/>
-        <Footer/>
+         <Suspense>
+         <Slidebar/>
+         <Trending/>
+         <CardLayout/>
+         <Offer/>
+         <Tailor/>
+         <LoyaltyCard/>
+         <PrivateJet/>
+         <NextTrip/>
+         <SingleImage/>
+         <Footer/>
         </Suspense>
       </div>
     </>

@@ -167,7 +167,7 @@ const Flightssearch = () => {
           </div>
 
           {/* Search Button */}
-          <div className="bg-blue-950 p-3 text-center cursor-pointer w-full md:w-50">
+          <div className="bg-blue-950 p-3 text-center cursor-pointer w-full md:w-65">
             <button className="text-blue-50 text-xl">Search</button>
           </div>
         </div>

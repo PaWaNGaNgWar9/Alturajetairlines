@@ -15,19 +15,19 @@ const Footer = () => (
 <div className=" flex flex-row  gap-4 ">
 
           <a href="#" className=" inline-block cursor-pointer transition-all duration-500 ease-in hover:scale-130" >
-             <FaFacebookSquare className="w-6 h-6 text-blue-700 rounded " />
+             <FaFacebookSquare className="w-6 h-6 text-white rounded hover:text-blue-700 " />
          </a>
          <a href="#" className=" inline-block cursor-pointer transition-all duration-500 ease-in hover:scale-130" >
-            <FaSquareInstagram className="w-6 h-6 text-[#dc2195] rounded" />
+            <FaSquareInstagram className="w-6 h-6 text-white rounded hover:text-[#dc2195]" />
          </a>
          <a href="#" className=" inline-block cursor-pointer transition-all duration-500 ease-in hover:scale-130" >  
-            <BsTwitterX  className="w-6 h-6 text-white"/>
+            <BsTwitterX  className="w-6 h-6 text-white hover:text-black " />
          </a>  
          <a href="#" className=" inline-block cursor-pointer transition-all duration-500 ease-in hover:scale-130" >
-            <FaYoutube className="w-6 h-6 text-red-600  rounded" />
+            <FaYoutube className="w-6 h-6 text-white hover:text-red-600  rounded" />
          </a> 
          <a href="#" className=" inline-block cursor-pointer transition-all duration-500 ease-in hover:scale-130" >
-            <BsLinkedin className="w-6 h-6 text-blue-800  rounded"/>
+            <BsLinkedin className="w-6 h-6 text-white hover:text-blue-800  rounded"/>
           </a> 
           </div> 
         </div>

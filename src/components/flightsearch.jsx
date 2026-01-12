@@ -35,7 +35,7 @@ const Flightssearch = () => {
       </div>
       <div className="p-8">
         <p className="text-3xl font-mono text-blue-950">
-          Hi, where would you like to go?
+         Hi, One search away from somewhere new.
         </p>
 
         <div className="w-full h-[1px] mt-5 bg-gray-200"></div>
@@ -74,7 +74,7 @@ const Flightssearch = () => {
         {/* Booking */}
         <div className="flex flex-col md:flex-row gap-5 mt-5 items-center">
           {/* From */}
-          <div className="border border-gray-300 w-60 p-4 md:border-r-0 flex items-center gap-2">
+          <div className="border border-gray-300 w-75 p-4 md:border-r-0 flex items-center gap-2">
             <FaMapMarkerAlt className="text-gray-500" />
             <input
               type="text"
@@ -87,13 +87,13 @@ const Flightssearch = () => {
 
           {/* Plane Icon */}
           <IoIosAirplane
-            className={`text-3xl transition-all duration-300 ${
+            className={` size-[35px] lg:size-[50px] transition-all duration-300 ${
               isFocused ? "text-blue-500" : "text-gray-500"
             }`}
           />
 
           {/* To */}
-          <div className="border border-gray-300 w-60 p-4 md:border-l-0 flex items-center gap-2">
+          <div className="border border-gray-300 w-75 p-4 md:border-l-0 flex items-center gap-2">
             <FaMapMarkerAlt className="text-gray-500" />
             <input
               type="text"
@@ -109,7 +109,7 @@ const Flightssearch = () => {
             <label className="block text-sm text-gray-500 mb-1">
               Depart Date
             </label>
-            <input type="date" className="w-60 outline-none" />
+            <input type="date" className="w-45 outline-none" />
           </div>
 
           {/* Return Date */}
@@ -119,7 +119,7 @@ const Flightssearch = () => {
             </label>
             <input
               type="date"
-              className="w-60 outline-none disabled:bg-gray-100 disabled:cursor-not-allowed"
+              className="w-45 outline-none disabled:bg-gray-100 disabled:cursor-not-allowed"
               disabled={tripType === "oneway"}
             />
           </div>

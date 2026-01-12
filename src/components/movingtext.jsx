@@ -3,10 +3,13 @@ import { BiSolidLeftArrow, BiSolidRightArrow } from "react-icons/bi";
 
 const Movingtext = () => {
   const texts = [
-    "Winter schedule takes effect from 26th October. Please check your flight status for any timing changes.",
-    "Dangerous goods, sharp items, and flammable materials are strictly prohibited in all baggage",
-    "Arrive at least 2 hours before departure for seamless check-in and security clearance.",
-    "Ensure all required travel documents are updated before arrival at the airport."
+    "Ensure all mandatory travel documents are valid and ready before arriving at the airport.",
+    "Boarding gates may close earlier than departure time; please remain attentive to airport announcements.",
+    "Late arrival at the boarding gate may result in denied boarding as per AlturaJet policies.",
+    "Weather conditions or air traffic restrictions may cause delays; monitor your flight status regularly.",
+    "For the safety of all guests, AlturaJet strictly prohibits the carriage of dangerous, sharp, or flammable items in any baggage.",
+    "AlturaJet seasonal schedules may impact departure times. Passengers are advised to review their flight status prior to travel.",
+    "Carry-on baggage must comply with AlturaJet size and weight guidelines for a hassle-free journey."
   ];
 
   const [current, setCurrent] = useState(0);
@@ -31,7 +34,7 @@ const Movingtext = () => {
     <div className="bg-gray-100 w-full py-3 md:py-4">
 
       {/* Text + Arrows */}
-      <div className="flex items-center justify-center gap-3 md:gap-6 px-3 md:px-6">
+      <div className="flex items-center justify-center gap-3 lg:gap-12 px-3 lg:px-6">
 
         {/* Left Arrow */}
         <BiSolidLeftArrow

@@ -4,8 +4,7 @@ const Heroseciton = lazy(()=>import('./components/herosection'))
 import Flightssearch from './components/flightsearch';
 import Movingtext from './components/movingtext';
 const Slidebar = lazy(() => import('./components/slidebar'));
-import Trending from './components/trending'
-const CardLayout = lazy(() => import('./components/cardlayout'));
+import TrendingSection from "./components/TrendingSection";
 const Offer = lazy(() => import('./components/offer'));
 import Tailor from './components/tailor';
 import NextTrip from './components/nexttrip';
@@ -25,8 +24,7 @@ function App() {
         <Movingtext/>
          <Suspense>
          <Slidebar/>
-         <Trending/>
-         <CardLayout/>
+         <TrendingSection/>
          <Offer/>
          <Tailor/>
          <LoyaltyCard/>

@@ -31,14 +31,14 @@ const Movingtext = () => {
   }, []);
 
   return (
-    <div className="bg-gray-100 w-full py-3 md:py-4">
+    <div className="bg-blue-50 w-full py-3 md:py-4">
 
       {/* Text + Arrows */}
       <div className="flex items-center justify-center gap-3 lg:gap-12 px-3 lg:px-6">
 
         {/* Left Arrow */}
         <BiSolidLeftArrow
-          className="text-xs sm:text-sm md:text-lg cursor-pointer text-yellow-500"
+          className="text-xs sm:text-sm md:text-lg cursor-pointer text-blue-600 hover:text-amber-400"
           onClick={prevText}
         />
 
@@ -50,7 +50,7 @@ const Movingtext = () => {
 
         {/* Right Arrow */}
         <BiSolidRightArrow
-          className="text-xs sm:text-sm md:text-lg cursor-pointer text-yellow-500"
+          className="text-xs sm:text-sm md:text-lg cursor-pointer text-blue-600 hover:text-amber-400"
           onClick={nextText}
         />
       </div>

@@ -9,25 +9,37 @@ const cityImages = {
      "/card5.jpg",
     "/card6.jpg",
     "/card7.jpg",
-    "/card8.jpg",
+    "/card8.jpg"
   ],
   York: [
     "/york1.jpg",
-    "/york2.jpg",
-    "/york3.jpg",
+    "/york5.jpg",
+    "/york7.jpg",
     "/york4.jpg",
+    "/york2.jpg",
+    "/york6.jpg",
+    "/york3.jpg",
+    "/york8.jpg"
   ],
   Cambridge: [
-   "/card5.jpg",
-    "/card6.jpg",
-    "/card7.jpg",
-    "/card8.jpg",
+   "/cam1.jpg",
+    "/cam2.jpg",
+    "/cam3.jpg",
+    "/cam4.jpg",
+     "/cam5.jpg",
+    "/cam6.jpg",
+    "/cam7.jpg",
+    "/cam8.jpg"
   ],
   Coventry: [
-     "/card1.jpg",
-    "/card2.jpg",
-    "/card3.jpg",
-    "/card4.jpg",
+     "/cov7.jpg",
+    "/cov8.jpg",
+    "/cov3.jpg",
+    "/cov4.jpg",
+     "/cov5.jpg",
+    "/cov6.jpg",
+    "/cov1.jpg",
+    "/cov2.jpg"
   ],
 };
 

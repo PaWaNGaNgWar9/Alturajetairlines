@@ -4,8 +4,8 @@ const LoyaltyCard =()=>
     // main div
     <div className="w-full  h-auto md:h-98  md:mt-10 mb-5 flex flex-col md:flex-row">
                <div>
-                <p className="text-3xl  font-medium text-blue-900 m-3 ">
-                    AlturaJet Loyalty Program
+                <p className="text-3xl  font-medium text-blue-900 m-3 md:m-5 ">
+                    Altitude Rewards by AlturaJet
                 </p>
                 <div className="bg-cover bg-no-repeat bg-center w-105 md:w-190  h-50 md:h-75 ml-1 md:ml-5 md:rounded-2xl "
                    style={{backgroundImage: "url('/loyal.png')"}}>
@@ -28,7 +28,7 @@ const LoyaltyCard =()=>
                 {/* Second div */}
                 <div className="  w-full md:w-150 md:h-98 h-auto">
                        <a href="#" className="cursor-pointer">
-                        <div className=" flex flex-row md:gap-3 justify-center mt-6 md:mt-40 ml-4 md:ml-6 items-center ">
+                        <div className=" flex flex-row justify-center mt-6 md:mt-40 ml-4 md:ml-6 items-center ">
                             <div>
                             <img src="/free.png" alt="logo" className=" w-20 h-20 md:w-25 md:h-25 rounded-full 
                             transition-transform duration-1000 hover:scale-110

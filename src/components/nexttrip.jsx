@@ -2,7 +2,7 @@ import React from "react";
 const NextTrip=()=>
 {return(
     <div className="bg-white mb-5">
-            <p className="text-3xl text-blue-900 font-semibold mt-15 m-6 mb-10">
+            <p className="text-3xl text-blue-900 font-semibold mt-10 m-6 mb-10">
                 Plan Your Next Trip with Altura<span className="text-amber-400">Jet!</span>
             </p>
             {/* for Card */}

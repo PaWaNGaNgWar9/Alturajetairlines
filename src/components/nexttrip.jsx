@@ -6,11 +6,11 @@ const NextTrip=()=>
                 Plan Your Next Trip with Altura<span className="text-amber-400">Jet!</span>
             </p>
             {/* for Card */}
-             <div className="flex flex-col md:flex-row gap-3 mx-5 cursor-pointer">
+             <div className="flex flex-col md:flex-row gap-3 mx-5 cursor-pointer ">
                 {/* Card 1 */}
                      <div className="bg-cover bg-center rounded w-full md:w-60  h-auto md:h-35 p-2 -translate-y-[10px]
                      transition-transform duration-500 ease-in-out
-               hover:-translate-y-4"
+               hover:-translate-y-4 "
                      style={{backgroundImage:"url('earth.jpg')"}}> 
                             <a className="cursor-pointer">
                                 <p className="text-xl  font-bold text-white mt-25">
@@ -99,9 +99,9 @@ const NextTrip=()=>
               <div className="flex justify-center mt-4  gap-3 md:gap-5 ">
                 <div className=" w-full md:w-127 h-[1px] bg-amber-600  mt-3 md:mt-6"></div>
                 <a href="#" className="cursor-pointer">
-                    <div className="border md:border-2 border-blue-950 w-30 h-auto md:w-40 md:h-12 text-center  
-                    transition-transform duration-500 ease-in-out hover:scale-110 ">
-                          <p className="p-auto md:p-2 text-blue-900 text-md md:text-lg font-medium">Explore More</p>
+                    <div className="border  border-blue-950 w-30 h-auto md:w-40 md:h-12 text-center  
+                    transition-transform duration-500 ease-in-out hover:bg-amber-400 ">
+                          <p className="p-auto md:p-2 text-blue-900 text-md md:text-lg">Explore More</p>
                    </div>
                 </a>
                  <div className=" w-full md:w-127 h-[1px] bg-amber-600 mt-3 md:mt-6"></div>

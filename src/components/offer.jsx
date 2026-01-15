@@ -1,48 +1,74 @@
 import React from "react";
-const Offer =()=>
-{
-  
-    return(
-        <div className="mb-2 md:mx-2">
-            <div className=" bg-cover  bg-center bg-no-repeat w-full min-h-[320px]  md:h-[480px]
- rounded-lg
-            " style={{backgroundImage:"url('/offer.png')"}}>
-                {/* text part */}
-                <div className="flex justify-end md:py-20 py-8  md:px-10 px-2 items-center">
-                <div className=" md:w-[600px] md:h-[350px] w-[240px] h-[265px] backdrop-blur-2xl shadow-2xl">
-                      <div className="md:px-10 px-3 ">
-                        <p className="text-white text-lg md:text-4xl px-2 md:px-0 md:pt-5 pt-1 font-normal">Never miss an offer</p>
-                          <p className="text-white text-xs md:text-sm  px-2 md:px-0  md:mt-5">
-                           Subscribe and be the first to receive our exclusive offers.
-                          </p>
-                         <div className="
-                  w-full md:w-[550px] h-auto md:h-[50px]  md:mt-5 mt-1
-                  md:rounded-lg flex flex-col md:flex-row items-center px-2">
 
-       <input
-          type="email"
-          placeholder="Email Address"
-          className="w-full md:w-1/2 p-2 md:p-3 text-xs mt-2 md:mt-0 md:text-lg md:rounded-l-md bg-white outline-none"/>
-                         <input
-                              type="text" placeholder="Preferred City of Departure"
-                              className=" w-full md:w-1/2 p-2 md:p-3 text-xs md:text-lg mt-2 md:mt-0 md:rounded-r-md bg-white outline-none md:border-l "/>
-                        </div>
+const Offer = () => {
+  return (
+    <div className="mb-4 md:mx-4">
+      <div
+        className="relative bg-cover bg-center bg-no-repeat w-full min-h-[320px] md:h-[480px] rounded-2xl overflow-hidden"
+        style={{ backgroundImage: "url('/offer.png')" }}
+      >
+        {/* Dark overlay for contrast */}
+        <div className="absolute inset-0 bg-black/40"></div>
 
-                                   <div className="mt-5 ml-3   ">
-                                    <input type="checkbox" className="md:scale-170 scale-90 "/>
-                                    <p className="pl-3 ml-2 md:ml-4 text-white text-[6px] md:text-sm md:block -translate-y-[20px] md:-translate-y-[30px]">
-                                        I’d like to receive offers and news from AlturaJet Airlines .
-                                     I understand the<a href="#" className="underline px-1"> Privacy Notice</a> and acknowledge that I can
-                                     unsubscribe anytime using the link at the bottom of each message.</p>    
-                                  </div>
-                         <div className=" md:mt-5 md:ml-10 ml-4 border border-gray-600 rounded-3xl w-[90px] md:w-[135px] h-[30px] md:h-[45px] text-center hover:bg-white">
-                            <button className="cursor-pointer p-2  text-xs md:text-lg text-gray-600 hover:text-black">Subscribe</button>
-                         </div>
-                      </div>
-                </div>
-                </div>
+        {/* Content */}
+        <div className="relative flex justify-end items-center h-full px-3 md:px-12 py-6">
+          <div className="w-full max-w-[255px] md:max-w-[615px] backdrop-blur-3xl bg-white/10 border border-white/20 rounded-2xl shadow-2xl p-4 md:p-10">
+
+            {/* Heading */}
+            <p className="text-white text-xl md:text-4xl font-semibold">
+              Unlock Exclusive Offers 🔔
+            </p>
+
+            {/* Subtext */}
+            <p className="text-white/90 text-xs md:text-sm mt-2 md:mt-4">
+              Enjoy priority access to curated AlturaJet fares and premium travel deals.
+            </p>
+
+            {/* Inputs */}
+            <div className="mt-4 md:mt-6 flex flex-col md:flex-row gap-2">
+              <input
+                type="email"
+                placeholder="Email Address"
+                className="w-full md:w-1/2 p-2 md:p-3 text-xs md:text-lg rounded-lg bg-white outline-none focus:ring-2 focus:ring-amber-400"
+              />
+
+              <input
+                type="text"
+                placeholder="Preferred City of Departure"
+                className="w-full md:w-1/2 p-2 md:p-3 text-xs md:text-lg rounded-lg bg-white outline-none focus:ring-2 focus:ring-amber-400"
+              />
             </div>
+
+            {/* Checkbox */}
+            <label className="flex items-start gap-2 mt-4 md:mt-6">
+              <input
+                type="checkbox"
+                className="mt-1 accent-amber-400 scale-90 md:scale-110"
+              />
+              <span className="text-white text-[10px] md:text-sm leading-relaxed">
+                Send me exclusive AlturaJet offers and updates.
+                <span className="underline ml-1 cursor-pointer">
+                  Privacy Notice
+                </span>.
+                Unsubscribe anytime.
+              </span>
+            </label>
+
+            {/* CTA */}
+            <button
+              className="mt-5 md:mt-8 px-6 md:px-10 py-2 md:py-3 rounded-full text-xs md:text-lg font-medium
+              bg-gradient-to-r from-amber-400 to-orange-500 text-black
+              hover:from-orange-500 hover:to-amber-400
+              transition-all duration-300 shadow-lg hover:scale-105"
+            >
+              Get Exclusive Deals
+            </button>
+
+          </div>
         </div>
-    )
-}
+      </div>
+    </div>
+  );
+};
+
 export default Offer;

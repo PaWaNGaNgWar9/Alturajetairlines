@@ -38,13 +38,13 @@ const Herosection = () => {
       <div className="relative z-10 flex items-center h-full px-6 sm:px-10 md:px-16">
         <div className="max-w-xl text-white">
           <p className="text-md sm:text-3xl md:text-4xl mt-28 font-bold text-amber-400 drop-shadow-lg">
-            ⌯✈︎ Fly the World With Confidence
+            ⌯✈︎ The World Feels Closer When You Fly Certain
           </p>
 
           <p className="md:mt-4 text-base text-xs md:text-xl font-semibold drop-shadow-md">
-            Enjoy smooth bookings, on-time flights, and customer-first service
-            every step of the way.
-          </p>
+            Enjoy seamless bookings, punctual flights, and a customer-first experience
+             at every step.
+            </p>
         </div>
       </div>
 

@@ -1,6 +1,13 @@
 import React, { useState } from "react";
 import { FaMapMarkerAlt } from "react-icons/fa";
 import { IoIosAirplane } from "react-icons/io";
+import {
+  FaSuitcaseRolling,
+  FaCheckCircle,
+  FaTags,
+  FaPlane,
+  FaCalendarAlt
+} from "react-icons/fa";
 
 const Flightssearch = () => {
   const [isFocused, setIsFocused] = useState(false);
@@ -25,17 +32,39 @@ const Flightssearch = () => {
         {/* Tabs */}
         <div className="bg-black text-white p-4 md:w-205 overflow-x-auto">
           <div className="flex gap-4 md:gap-10 whitespace-nowrap">
-            <a className="cursor-pointer py-2 hover:bg-gray-600">MANAGE BOOKING</a>
-            <a className="cursor-pointer py-2 hover:bg-gray-600">CHECK IN</a>
-              <a className="cursor-pointer py-2 hover:bg-gray-600">CHECK OFFERS</a>
-            <a className="cursor-pointer py-2 hover:bg-gray-600">FLIGHT STATUS</a>
-            <a className="cursor-pointer py-2 hover:bg-gray-600">FLIGHT SCHEDULE</a>
-          </div>
+  
+  <a className="flex items-center gap-2 cursor-pointer py-2 px-2 hover:bg-gray-600 rounded">
+    <FaSuitcaseRolling className="text-lg" />
+    MANAGE BOOKING
+  </a>
+
+  <a className="flex items-center gap-2 cursor-pointer py-2 px-2 hover:bg-gray-600 rounded">
+    <FaCheckCircle className="text-lg" />
+    CHECK IN
+  </a>
+
+  <a className="flex items-center gap-2 cursor-pointer py-2 px-2 hover:bg-gray-600 rounded">
+    <FaTags className="text-lg" />
+    CHECK OFFERS
+  </a>
+
+  <a className="flex items-center gap-2 cursor-pointer py-2 px-2 hover:bg-gray-600 rounded">
+    <FaPlane className="text-lg" />
+    FLIGHT STATUS
+  </a>
+
+  <a className="flex items-center gap-2 cursor-pointer py-2 px-2 hover:bg-gray-600 rounded">
+    <FaCalendarAlt className="text-lg" />
+    FLIGHT SCHEDULE
+  </a>
+
+</div>
+
         </div>
       </div>
       <div className="p-8">
         <p className="text-3xl font-mono text-blue-950">
-          Hi, where would you like to go?
+         Hi, One search away from somewhere new.
         </p>
 
         <div className="w-full h-[1px] mt-5 bg-gray-200"></div>
@@ -74,7 +103,7 @@ const Flightssearch = () => {
         {/* Booking */}
         <div className="flex flex-col md:flex-row gap-5 mt-5 items-center">
           {/* From */}
-          <div className="border border-gray-300 w-60 p-4 md:border-r-0 flex items-center gap-2">
+          <div className="border border-gray-300 w-75 p-4 md:border-r-0 flex items-center gap-2">
             <FaMapMarkerAlt className="text-gray-500" />
             <input
               type="text"
@@ -87,13 +116,13 @@ const Flightssearch = () => {
 
           {/* Plane Icon */}
           <IoIosAirplane
-            className={`text-3xl transition-all duration-300 ${
+            className={` size-[35px] lg:size-[50px] transition-all duration-300 ${
               isFocused ? "text-blue-500" : "text-gray-500"
             }`}
           />
 
           {/* To */}
-          <div className="border border-gray-300 w-60 p-4 md:border-l-0 flex items-center gap-2">
+          <div className="border border-gray-300 w-75 p-4 md:border-l-0 flex items-center gap-2">
             <FaMapMarkerAlt className="text-gray-500" />
             <input
               type="text"
@@ -109,7 +138,7 @@ const Flightssearch = () => {
             <label className="block text-sm text-gray-500 mb-1">
               Depart Date
             </label>
-            <input type="date" className="w-60 outline-none" />
+            <input type="date" className="w-45 outline-none" />
           </div>
 
           {/* Return Date */}
@@ -119,7 +148,7 @@ const Flightssearch = () => {
             </label>
             <input
               type="date"
-              className="w-60 outline-none disabled:bg-gray-100 disabled:cursor-not-allowed"
+              className="w-45 outline-none disabled:bg-gray-100 disabled:cursor-not-allowed"
               disabled={tripType === "oneway"}
             />
           </div>

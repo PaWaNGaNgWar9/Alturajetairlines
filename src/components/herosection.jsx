@@ -51,5 +51,4 @@ const Herosection = () => {
     </section>
   );
 };
-
 export default Herosection;

@@ -8,7 +8,7 @@ const PrivateJet=()=>
           <img
           src="/largebook.png"
           alt="Private Jet"
-          className="md:w-65 md:h-43  w-full h-auto object-contain md:m-13 shadow-xl shadow-blue-500 rounded-2xl"/>
+          className="md:w-65 md:h-43  w-full h-auto object-contain md:m-13 shadow-2xl shadow-blue-500 rounded-2xl"/>
           <div className="flex flex-col md:mt-10 pl-3 md:pl-0 mt-3 md:-translate-x-[30px]">
                <p className="md:text-3xl text-2xl font-bold text-blue-950">Cargo</p>
                <p className="font-bold m-0 text-sm md:text-md">From Compact to Extra-Large Cargo</p>
@@ -26,7 +26,7 @@ const PrivateJet=()=>
           <img
           src="/smallbook.png"
           alt="Private Jet"
-          className="md:w-65 md:h-43  w-full h-auto object-contain md:m-13  shadow-xl shadow-blue-500 rounded-2xl"/>
+          className="md:w-65 md:h-43  w-full h-auto object-contain md:m-13  shadow-2xl shadow-blue-500 rounded-2xl"/>
           <div className="flex flex-col md:mt-10  pl-3 md:pl-0 mt-3 md:-translate-x-[30px]">
                <p className="md:text-3xl text-2xl font-bold text-blue-950">Charter</p>
                <p className="font-bold m-0 text-sm md:text-md">Fly privately, travel in style</p>

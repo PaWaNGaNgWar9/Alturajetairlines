@@ -1,39 +1,25 @@
-import {lazy, Suspense} from 'react';
+import { BrowserRouter,Routes,Route } from 'react-router-dom';
 import Navbar from './components/navbar';
-const Heroseciton = lazy(()=>import('./components/herosection'))
-import Flightssearch from './components/flightsearch';
-import Movingtext from './components/movingtext';
-const Slidebar = lazy(() => import('./components/slidebar'));
-import TrendingSection from "./components/TrendingSection";
-const Offer = lazy(() => import('./components/offer'));
-import Tailor from './components/tailor';
-import NextTrip from './components/nexttrip';
-import LoyaltyCard from './components/loyaltycard';
-import PrivateJet from './components/privatejet';
-import SingleImage from './components/singleimage';
-import Footer from './components/Footer';
+import Home from "./pages/Home";
+import About from "./pages/About";
+import Flight from './pages/Flights';
+import Login from './pages/Login';
 import './App.css'
 function App() {
   return (
     <>
       <div>
-        
+        <BrowserRouter>
         <Navbar/>
-        <Heroseciton/>
-        <Flightssearch/>
-        <Movingtext/>
-         <Suspense>
-         <Slidebar/>
-         <TrendingSection/>
-         <Offer/>
-         <Tailor/>
-         <LoyaltyCard/>
-         <PrivateJet/>
-         <NextTrip/>
-         <SingleImage/>
-         <Footer/>
-        </Suspense>
-      </div>
+        <Routes>
+             <Route path="/" element={<Home />} />
+             <Route path="/home" element={<Home />} />
+             <Route path="/about" element={<About />} />
+             <Route path="/flights" element={<Flight />} />
+             <Route path="/login" element={<Login/>}/>
+       </Routes>
+       </BrowserRouter>
+         </div>
     </>
   )
 }

@@ -1,4 +1,5 @@
 import React, { useState } from "react";
+import { Link } from "react-router-dom";
 import { FaMapMarkerAlt } from "react-icons/fa";
 import { IoIosAirplane } from "react-icons/io";
 import {
@@ -32,11 +33,12 @@ const Flightssearch = () => {
         {/* Tabs */}
         <div className="bg-black text-white p-4 md:w-205 overflow-x-auto">
           <div className="flex gap-4 md:gap-10 whitespace-nowrap">
-  
-  <a className="flex items-center gap-2 cursor-pointer py-2 px-2 hover:bg-gray-600 rounded">
+  <Link to="/manage-booking" className="flex items-center gap-2 cursor-pointer py-2 px-2 hover:bg-gray-600 rounded">
+  <li className="flex items-center gap-2 cursor-pointer py-2 px-2 hover:bg-gray-600 rounded">
     <FaSuitcaseRolling className="text-lg" />
     MANAGE BOOKING
-  </a>
+  </li>
+  </Link>
 
   <a className="flex items-center gap-2 cursor-pointer py-2 px-2 hover:bg-gray-600 rounded">
     <FaCheckCircle className="text-lg" />

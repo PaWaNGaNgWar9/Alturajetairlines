@@ -4,7 +4,6 @@ import {
   FaHome,
   FaInfoCircle,
   FaPlaneDeparture,
-  FaBook,
   FaFileAlt,
   FaUser
 } from "react-icons/fa";
@@ -52,22 +51,19 @@ const Navbar = () => {
                 <FaPlaneDeparture /> Flights
               </Link>
             </li>
-
-            <li className="flex items-center gap-2 hover:text-black cursor-pointer">
-              <FaBook /> Book
-            </li>
-          </ul>
-
-          <a href="#" className="flex items-center gap-2 underline hover:text-black">
+        
+          <Link to="tarifsheet" className="flex items-center gap-2 underline hover:text-black">
             <FaFileAlt /> Tariff Sheet
-          </a>
+          </Link>
                <li>
-                <Link to="/login" className="flex items-center gap-2 bg-yellow-700 px-5 py-1 rounded hover:bg-yellow-800 transition">
-          <button className="flex items-center gap-2 bg-yellow-700 px-5 py-1 rounded hover:bg-yellow-800 transition">
+                <Link to="/login" className="flex items-center gap-2  rounded hover:bg-yellow-800 transition">
+          <button className="flex items-center gap-2 bg-blue-500 px-5 py-1 rounded hover:bg-yellow-800 transition">
             <FaUser /> Login
           </button>
           </Link>
           </li>
+            </ul>
+
         </div>
 
         {/* Mobile Button */}
@@ -97,10 +93,6 @@ const Navbar = () => {
                 <FaPlaneDeparture /> Flights
               </li>
                   </Link>
-                  
-              <li className="flex items-center gap-2">
-                <FaBook /> Book
-              </li>
               <a href="#" className="flex items-center gap-2 underline">
                 <FaFileAlt /> Tariff Sheet
               </a>

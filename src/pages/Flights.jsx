@@ -115,22 +115,6 @@ const Flights = () => {
   </div>
 </section>
 
-      {/* ================= FEATURES ================= */}
-     
-
-      {/* ================= PRIVATE JET ================= */}
-      <section className="bg-gradient-to-r from-gold/30 to-black py-28 text-center px-6">
-        <h2 className="font-serif text-3xl md:text-4xl mb-6">
-          Private aviation, redefined
-        </h2>
-        <p className="text-gray-300 mb-10 max-w-xl mx-auto">
-          Tailored journeys with absolute privacy and freedom
-        </p>
-        <button className="bg-gold text-jetblack px-10 py-3 font-medium border-1 hover:bg-yellow-400 transition">
-          Request a Private Flight
-        </button>
-      </section>
-
       {/* ================= FOOTER ================= */}
       <footer className="border-t border-white/10 py-10 text-center text-sm text-gray-500">
         © 2026 AlturaJet Airlines — Elevating Every Journey

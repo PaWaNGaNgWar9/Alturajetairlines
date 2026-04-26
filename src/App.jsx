@@ -1,9 +1,9 @@
 import { BrowserRouter,Routes,Route } from 'react-router-dom';
-import Navbar from './components/Navbar';
+import Navbar from './components/navbar';
 import Home from "./pages/Home";
 import About from "./pages/About";
 import Flight from './pages/Flights';
-import SignUp from './pages/signup';
+import SignUp from './pages/Signup';
 import Login from './pages/Login';
 import TarifSheet from './pages/TarifSheet';
 import Managebooking from './pages/Managebooking';
